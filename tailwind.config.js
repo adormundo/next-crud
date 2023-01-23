@@ -3,6 +3,11 @@ module.exports = {
   content: [
     './src/**/*.tsx',
   ],
+  safelist: [
+    /^bg-/,
+    /^to-/,
+    /^from-/,
+  ],
   theme: {
     extend: {},
   },
